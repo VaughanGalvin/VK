@@ -5,7 +5,7 @@ public class Reply {
     private String author;
     private String picture;
     private String timestamp;
-    private String date;
+    private int date;
     private String content;
     private String like;
     private String commentsReply;

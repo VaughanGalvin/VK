@@ -1,10 +1,10 @@
 package ru.netology.domain;
 
 public class Post {
-    private String id;
+    private int id;
     private String author;
     private String timestamp;
-    private String date;
+    private int date;
     private String picture;
     private String title;
     private String banner; // optional
@@ -14,6 +14,11 @@ public class Post {
     private String repost;
     private String view;
     private String reply;
+    private boolean isForFriendsOnly;
+    private String postType;
+    private boolean isFavorite;
+    private boolean isEditingAvailable;
+    private boolean isDeletingAvailable;
 
     //+ getter's & setter's
 
